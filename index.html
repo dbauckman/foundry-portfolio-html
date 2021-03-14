@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=display-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="intro">
+			<img class="profile-picture" src="images/profile-picture.jpg" />
+			<h1 id="myname">Dorrie Bauckman</h1>
+			<h3>Full-Stack Web Developer and WordPress Specialist</h3>
+			<p class="quote">{{ pause and ponder }}</p>
+		</div>
+
+		<hr>
+
+		<div class="about-grid">
+			<div class="i-am">
+				<h2>I am</h2>
+				<ul class="about-list">
+					<li class="about-list-item">An engineer</li>
+					<li class="about-list-item">An analyst</li>
+					<li class="about-list-item">A user advocate</li>
+				</ul>
+			</div>
+
+			<div class="i-like">
+				<h2>I like to</h2>
+				<ul class="about-list">
+					<li class="about-list-item">Work with a great team</li>
+					<li class="about-list-item">Make innovative things</li>
+					<li class="about-list-item">Sing showtunes</li>
+				</ul>
+			</div>
+		</div>
+
+		<hr>
+
+		<div>
+			<h2 class="projects-heading">My Projects</h2>
+			<div class="projects-grid">
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-1.jpg">
+					<h4><a href="file:///Users/dorothyayers/Desktop/Album%20Cover/index.html">Full-Stack Development</a></h4>
+				</div>
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-2.jpg">
+					<h4>WordPress Development</h4>
+				</div>
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-3.jpg">
+					<h4>User Experience & Interface Design</h4>
+				</div>
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-4.jpg">
+					<h4><a href="file:///Users/dorothyayers/Desktop/Article%20Cover/index.html">Technical Writing</a></h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="quote-box">
+			<p class="quote">"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." Patrick McKenzie</p>
+		</div>
+
+		<hr>
+
+		<div class="links-and-contact">
+			<div class="links">
+				<h3>Links</h3>
+				<ul class="links-list">
+					<li>
+						<a href="https://github.com/<user>" target="_blank">Github</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/<user>" target="_blank">Twitter</a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/in/<user>" target="_blank">LinkedIn</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<form action="#">
+					<label for="email" >
+						<h4>Email</h4>
+						<input type="email" id="email" placeholder="Enter your email">
+					</label>
+					<label for="message">
+						<h4>Message</h4>
+						<textarea id="message" rows="5">Your Message</textarea>
+					</label>
+					<div class="submit-button-wrapper">
+						<input id="submit-button" type="submit" valid="Send Message">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
